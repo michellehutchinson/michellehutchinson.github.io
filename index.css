@@ -1,0 +1,183 @@
+@font-face {
+	font-family: 'Aller';
+	src: ('fonts/Aller_Std_Lt.ttf'), format('truetype');
+}
+
+@font-face {
+	font-family: 'Edwardian Script ITC';
+	src: ('fonts/EdwardianScript.TTF'), format('truetype');
+}
+
+.background {
+	background-repeat: no-repeat;
+	display:block;
+	background-size: cover;
+}
+
+.header {
+	font-size: 100px;
+	font-family: 'Edwardian Script ITC'; 
+	text-align: center;
+	margin-bottom: 0px;
+	font-weight: 400;
+	font-style: italic;
+	color: #000000;
+}
+
+.header2 {
+	font-size: 50px;
+	font-family: 'Aller'; 
+	text-align: left;
+	margin-bottom: 0px;
+	Font-weight: 300;
+	color: #000000;
+}
+
+p {
+	font-family: 'Aller';
+	font-weight: 300;
+	font-size: 18px;
+	margin-top: 0px;
+	text-align: center;
+	color: #000000;
+}
+
+.website {
+	font-size: 18px;
+	font-weight: 300;
+	font-family: 'Aller'; 
+	text-align: center;
+	color: #000000;
+	margin-top: 0px;
+	
+}
+
+.welcome {
+	font-family: 'Aller';
+	font-size: 22px;
+	text-align: center;
+	margin-top: 150px;
+	font-weight: 200;
+	color: #000000;
+	background-color: rgba(255, 255, 255, 0.7);
+}
+
+.title {
+	font-family: 'Aller';
+	font-size: 22px;
+	font-weight: normal;
+	text-align: left;
+	margin-bottom: 5px;
+	margin-top: 40px;
+	color: #000000;
+}
+
+.resume {
+	font-family: 'Aller';
+	font-size: 22px;
+	font-weight: 300;
+	text-align: center;
+	margin-bottom: 5px;
+	margin-top: 300px;
+	color: #000000;
+}
+
+.abtme {
+	font-family: 'Aller';
+	font-size: 22px;
+	font-weight: 300;
+	text-align: justify;
+	margin-right: 200px;
+	list-style-type: none;
+	margin-top: 0px;
+	color: #000000;
+	margin-left; 150px;
+	background-color: rgba(255, 255, 255, 0.7);
+}
+
+.links {
+	font-family: 'Aller';
+	font-size: 22px;
+	font-weight: 300;
+	text-align: center;
+	margin-bottom: 100px;
+	list-style-type: none;
+	color: #000000;
+}
+
+.contactlinks {
+	font-family: 'Aller';
+	font-size: 22px;
+	font-weight: 300;
+	text-align: left;
+	margin-bottom: 5px;
+	list-style-type: none;
+	margin-left 50px;
+	color: #000000;
+}
+
+.contactlink2 {
+	font-family: 'Aller';
+	font-size: 22px;
+	font-weight: 300;
+	text-align: left;
+	margin-bottom: 5px;
+	list-style-type: none;
+	margin-left 200px;
+	color: #000000;
+	display: inline;
+}
+
+.headerimg {
+	width: auto;
+	height: auto;
+}
+
+a {
+	color: #000000;
+	text-decoration: none;
+	font-weight: 300;
+	font-family: 'Aller'; 
+	display: block;
+	text-align: left;
+}
+
+.contact {
+	display: inline;
+   	margin-left: auto;
+    	margin-right: auto; 
+	font-family: 'Aller';
+	font-size: 18px;
+	font-weight: 300;
+	text-align: center;
+	margin-top: 5px;
+	color: #000000;
+}
+
+a:hover {
+	color: #ffffff;
+	text-decoration: underline;
+	font-weight: 300;
+	font-family: 'Aller'; 
+}
+
+
+
+a:visited {
+	color: #666666;
+	font-weight: 300;
+	font-family: 'Aller'; 
+}
+
+li a {
+    	display: block;
+    	color: #ffffff;
+    	text-align: center;
+    	padding: 10px 10px;
+    	text-decoration: none;
+	float: left;
+	border: solid 1px black;
+	background-color: rgba(255, 255, 255, .5);
+	margin-right: 5px;
+	border-radius: 5px;
+}
