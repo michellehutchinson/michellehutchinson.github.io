@@ -1,11 +1,11 @@
 @font-face {
 	font-family: 'Aller';
-	src: ('Fonts/Aller_Std_Lt.ttf'), format('truetype');
+	src: ('fonts/Aller_Std_Lt.ttf'), format('truetype');
 }
 
 @font-face {
 	font-family: 'Edwardian Script ITC';
-	src: ('Fonts/EdwardianScript.TTF'), format('truetype');
+	src: ('fonts/EdwardianScript.TTF'), format('truetype');
 }
 
 .background {
