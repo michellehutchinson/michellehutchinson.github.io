@@ -8,15 +8,27 @@
 	src: ('fonts/EdwardianScript.TTF'), format('truetype');
 }
 
+@font-face {
+	font-family: 'Miss Fajardose';
+	scr: ('fonts/MissFajardose-Regular.ttf'), format('truetype');
+}
+
+@font-face {
+	font-family: 'Poppins';
+	scr: ('fonts/Poppins-Regular.ttf'), format('truetype');
+}
+
 .background {
 	background-repeat: no-repeat;
 	display:block;
 	background-size: cover;
+	background-attachment: fixed;
+	background-position: top, center;
 }
 
 .header {
 	font-size: 100px;
-	font-family: 'Aller'; 
+	font-family: 'Miss Fajardose'; 
 	text-align: center;
 	margin-bottom: 0px;
 	font-weight: 400;
@@ -26,7 +38,7 @@
 
 .header2 {
 	font-size: 50px;
-	font-family: 'Aller'; 
+	font-family: 'Poppins'; 
 	text-align: left;
 	margin-bottom: 0px;
 	Font-weight: 300;
@@ -34,7 +46,7 @@
 }
 
 p {
-	font-family: 'Aller';
+	font-family: 'Poppins';
 	font-weight: 300;
 	font-size: 18px;
 	margin-top: 0px;
@@ -45,25 +57,27 @@ p {
 .website {
 	font-size: 18px;
 	font-weight: 300;
-	font-family: 'Aller'; 
+	font-family: 'Poppins'; 
 	text-align: center;
 	color: #000000;
 	margin-top: 0px;
 	
 }
 
-.welcome {
-	font-family: 'Aller';
-	font-size: 22px;
-	text-align: center;
-	margin-top: 150px;
+.welcome p {
+	font-family: 'Poppins';
+	font-size: 14px;
+	text-align: left;
 	font-weight: 200;
 	color: #000000;
 	background-color: rgba(255, 255, 255, 0.7);
+	margin: auto;
+	margin-bottom: 14px;
+	width: 60%;
 }
 
 .title {
-	font-family: 'Aller';
+	font-family: 'Poppins';
 	font-size: 22px;
 	font-weight: normal;
 	text-align: left;
@@ -73,7 +87,7 @@ p {
 }
 
 .resume {
-	font-family: 'Aller';
+	font-family: 'Poppins';
 	font-size: 22px;
 	font-weight: 300;
 	text-align: center;
@@ -83,7 +97,7 @@ p {
 }
 
 .abtme {
-	font-family: 'Aller';
+	font-family: 'Poppins';
 	font-size: 22px;
 	font-weight: 300;
 	text-align: justify;
@@ -97,7 +111,7 @@ p {
 }
 
 .links {
-	font-family: 'Aller';
+	font-family: 'Poppins';
 	font-size: 22px;
 	font-weight: 300;
 	text-align: center;
@@ -107,7 +121,7 @@ p {
 }
 
 .contactlinks {
-	font-family: 'Aller';
+	font-family: 'Poppins';
 	font-size: 22px;
 	font-weight: 300;
 	text-align: left;
@@ -118,7 +132,7 @@ p {
 }
 
 .contactlink2 {
-	font-family: 'Aller';
+	font-family: 'Poppins';
 	font-size: 22px;
 	font-weight: 300;
 	text-align: left;
@@ -138,7 +152,7 @@ a {
 	color: #000000;
 	text-decoration: none;
 	font-weight: 300;
-	font-family: 'Aller'; 
+	font-family: 'Poppins'; 
 	display: block;
 	text-align: left;
 }
@@ -147,7 +161,7 @@ a {
 	display: inline;
    	margin-left: auto;
     	margin-right: auto; 
-	font-family: 'Aller';
+	font-family: 'Poppins';
 	font-size: 18px;
 	font-weight: 300;
 	text-align: center;
@@ -159,7 +173,7 @@ a:hover {
 	color: #ffffff;
 	text-decoration: underline;
 	font-weight: 300;
-	font-family: 'Aller'; 
+	font-family: 'Poppins'; 
 }
 
 
@@ -167,7 +181,7 @@ a:hover {
 a:visited {
 	color: #666666;
 	font-weight: 300;
-	font-family: 'Aller'; 
+	font-family: 'Poppins'; 
 }
 
 li a {
