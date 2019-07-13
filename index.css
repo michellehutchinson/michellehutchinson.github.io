@@ -10,12 +10,12 @@
 
 @font-face {
 	font-family: 'Miss Fajardose';
-	scr: ('fonts/MissFajardose-Regular.ttf'), format('truetype');
+	src: ('fonts/MissFajardose-Regular.ttf'), format('truetype');
 }
 
 @font-face {
 	font-family: 'Poppins';
-	scr: ('fonts/Poppins-Regular.ttf'), format('truetype');
+	src: ('fonts/Poppins-Regular.ttf'), format('truetype');
 }
 
 .background {
