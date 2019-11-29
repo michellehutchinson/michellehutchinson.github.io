@@ -28,27 +28,36 @@
 
 .header {
 	font-size: 100px;
-	font-family: 'Miss Fajardose'; 
-	text-align: center;
+	font-family: Arial, "Helvetica Neue", Helvetica, sans-serif; 
+	text-align: left;
 	margin-bottom: 0px;
-	font-weight: 400;
+	font-weight: 600;
 	font-style: normal;
-	color: #000000;
+	color: #ec7a08;
 }
 
 .header2 {
 	font-size: 50px;
-	font-family: 'Poppins'; 
+	font-family: Arial, "Helvetica Neue", Helvetica, sans-serif; 
 	text-align: left;
 	margin-bottom: 0px;
 	Font-weight: 300;
 	color: #000000;
 }
 
+.welcome p.header3 {
+	font-size: 24px;
+	font-family: Arial, "Helvetica Neue", Helvetica, sans-serif; 
+	text-align: left;
+	margin-bottom: 0px;
+	Font-weight: 600;
+	color: #9f2936;
+}
+
 p {
-	font-family: 'Poppins';
+	font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
 	font-weight: 300;
-	font-size: 18px;
+	font-size: 20px;
 	margin-top: 0px;
 	text-align: center;
 	color: #000000;
@@ -57,7 +66,7 @@ p {
 .website {
 	font-size: 18px;
 	font-weight: 300;
-	font-family: 'Poppins'; 
+	font-family: Arial, "Helvetica Neue", Helvetica, sans-serif; 
 	text-align: center;
 	color: #000000;
 	margin-top: 0px;
@@ -65,19 +74,19 @@ p {
 }
 
 .welcome p {
-	font-family: 'Poppins';
-	font-size: 14px;
+	font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+	font-size: 18px;
 	text-align: left;
 	font-weight: 200;
 	color: #000000;
 	background-color: rgba(255, 255, 255, 0.7);
-	margin: auto;
+	margin-left: 8%;
 	margin-bottom: 14px;
-	width: 60%;
+	width: 70%;
 }
 
 .title {
-	font-family: 'Poppins';
+	font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
 	font-size: 22px;
 	font-weight: normal;
 	text-align: left;
@@ -87,7 +96,7 @@ p {
 }
 
 .resume {
-	font-family: 'Poppins';
+	font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
 	font-size: 22px;
 	font-weight: 300;
 	text-align: center;
@@ -97,7 +106,7 @@ p {
 }
 
 .abtme {
-	font-family: 'Poppins';
+	font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
 	font-size: 22px;
 	font-weight: 300;
 	text-align: justify;
@@ -111,7 +120,7 @@ p {
 }
 
 .links {
-	font-family: 'Poppins';
+	font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
 	font-size: 22px;
 	font-weight: 300;
 	text-align: center;
@@ -121,7 +130,7 @@ p {
 }
 
 .contactlinks {
-	font-family: 'Poppins';
+	font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
 	font-size: 22px;
 	font-weight: 300;
 	text-align: left;
@@ -132,7 +141,7 @@ p {
 }
 
 .contactlink2 {
-	font-family: 'Poppins';
+	font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
 	font-size: 22px;
 	font-weight: 300;
 	text-align: left;
@@ -149,11 +158,29 @@ p {
 }
 
 a {
-	color: #000000;
+	color: #9f2936;
 	text-decoration: none;
 	font-weight: 300;
-	font-family: 'Poppins'; 
+	font-family: Arial, "Helvetica Neue", Helvetica, sans-serif; 
 	display: block;
+	text-align: left;
+}
+
+p a {
+	color: #ec7a08;
+	text-decoration: none;
+	font-weight: 300;
+	font-family: Arial, "Helvetica Neue", Helvetica, sans-serif; 
+	display: inline;
+	text-align: left;
+}
+
+p a:visited {
+	color: #9f2936;
+	text-decoration: none;
+	font-weight: 300;
+	font-family: Arial, "Helvetica Neue", Helvetica, sans-serif; 
+	display: inline;
 	text-align: left;
 }
 
@@ -161,7 +188,7 @@ a {
 	display: inline;
    	margin-left: auto;
     	margin-right: auto; 
-	font-family: 'Poppins';
+	font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
 	font-size: 18px;
 	font-weight: 300;
 	text-align: center;
@@ -173,7 +200,7 @@ a:hover {
 	color: #ffffff;
 	text-decoration: underline;
 	font-weight: 300;
-	font-family: 'Poppins'; 
+	font-family: Arial, "Helvetica Neue", Helvetica, sans-serif; 
 }
 
 
@@ -181,12 +208,12 @@ a:hover {
 a:visited {
 	color: #666666;
 	font-weight: 300;
-	font-family: 'Poppins'; 
+	font-family: Arial, "Helvetica Neue", Helvetica, sans-serif; 
 }
 
 li a {
     	display: block;
-    	color: #000000;
+    	color: #9f2936;
     	text-align: center;
     	padding: 10px 10px;
     	text-decoration: none;
